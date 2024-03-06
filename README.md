@@ -1,7 +1,3 @@
-# ABLSpineLevelCheck
-## Usage
-This code has been used for the MICCAI2024, as well as the paper ABLSpineLevelCheck: Localization of Vertebral
-Levels on Fluoroscopy via Abductive Learning
 <h2 align="center">ABLSpineLevelCheck: Localization of Vertebral Levels on Fluoroscopy via Semi-supervised Abductive Learning</h2>
 <p align="center">
     <a href="https://github.com/ThreeStones1029/ABLSpineLevelCheck/blob/main/LICENSE">
