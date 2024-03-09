@@ -15,7 +15,7 @@ This is the official implementation of the paper "ABLSpineLevelCheck: Localizati
 
 ## Abstract
 
-<p align="right">
+<p align="left">
 Deep learning has shown promising results in localizing ver-
 tebrae in X-ray images. However, in deep learning, data labeling is time-
 consuming and resource-intensive. To address this problem, a semi-supervised
