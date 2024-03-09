@@ -11,14 +11,9 @@
 </details>
 
 This is the official implementation of the paper "ABLSpineLevelCheck: Localization of Vertebral Levels on Fluoroscopy via Semi-supervised Abductive Learning".
-
-The workflow of the proposed ABLSpineLevelCheck. (a) The function f con-
-tains two neural networks that work in an ensemble strategy. (b) The outputs O from
-the two neural networks contain the object detection results, respectively. (c) The en-
-semble module leverages the knowledge base to abduce the pseudo labels. (d) The
-knowledge base KB includes a set of first-order logical clauses suggested by orthopedic
-surgeons. (e)(f) The abduced results are sent back to retrain the neural networks.
-
+<div style="text-align:justify;">
+The workflow of the proposed ABLSpineLevelCheck. (a) The function f contains two neural networks that work in an ensemble strategy. (b) The outputs O from the two neural networks contain the object detection results, respectively. (c) The ensemble module leverages the knowledge base to abduce the pseudo labels. (d) The knowledge base KB includes a set of first-order logical clauses suggested by orthopedic surgeons. (e)(f) The abduced results are sent back to retrain the neural networks.
+</div>
 ## Abstract
 Deep learning has shown promising results in localizing ver-
 tebrae in X-ray images. However, in deep learning, data labeling is time-
