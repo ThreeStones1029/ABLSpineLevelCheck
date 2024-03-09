@@ -14,24 +14,8 @@ This is the official implementation of the paper "ABLSpineLevelCheck: Localizati
 </p>
 
 ## Abstract
+Deep learning has shown promising results in localizing vertebrae in X-ray images. However, in deep learning, data labeling is time consuming and resource-intensive. To address this problem, a semi-supervised abductive learning technique called ABLSpineLevelCheck is proposed. First, the spine fluoroscopic images without annotation are fed into the networks to estimate their pseudo-labeles of vertebra localization. Then, these pseudo-labels are abduced by logical reasoning through knowledge base composed of a set of first-order logical clauses. Finally, the networks are retrained by the abduced results. We also propose to incorporate an ensemble method that effectively combines semantic detection of vertebral levels and instance detection. Moreover, simulated dataset and the BUU dataset are utilized to boot the robustness of the networks. Exhaustive experiments demonstrate the effectiveness of pretraining, ensemble, and logical reasoning modules. Furthermore, ABLSpineLevelCheck out performs traditional deep learning methods and can handle the training.
 
-<p align="left">
-Deep learning has shown promising results in localizing ver-
-tebrae in X-ray images. However, in deep learning, data labeling is time-
-consuming and resource-intensive. To address this problem, a semi-supervised
-abductive learning technique called ABLSpineLevelCheck is proposed.
-First, the spine fluoroscopic images without annotation are fed into the
-networks to estimate their pseudo-labeles of vertebra localization. Then,
-these pseudo-labels are abduced by logical reasoning through knowledge
-base composed of a set of first-order logical clauses. Finally, the networks
-are retrained by the abduced results. We also propose to incorporate an
-ensemble method that effectively combines semantic detection of verte-
-bral levels and instance detection. Moreover, simulated dataset and the
-BUU dataset are utilized to boot the robustness of the networks. Exhaus-
-tive experiments demonstrate the effectiveness of pretraining, ensemble,
-and logical reasoning modules. Furthermore, ABLSpineLevelCheck out-
-performs traditional deep learning methods and can handle the training
-</p>
 
 ## Performance
 | No | DRR | BUU | Real Label Dataset | Fake Label Dataset | Study | mAP | AP50 | AP75
