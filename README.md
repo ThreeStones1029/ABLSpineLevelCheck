@@ -12,10 +12,30 @@
 
 This is the official implementation of the paper "ABLSpineLevelCheck: Localization of Vertebral Levels on Fluoroscopy via Semi-supervised Abductive Learning".
 
-The workflow of the proposed ABLSpineLevelCheck. (a) The function f contains two neural networks that work in an ensemble strategy. (b) The outputs O from the two neural networks contain the object detection results, respectively. (c) The ensemble module leverages the knowledge base to abduce the pseudo labels. (d) The knowledge base KB includes a set of first-order logical clauses suggested by orthopedic surgeons. (e)(f) The abduced results are sent back to retrain the neural networks.
+The workflow of the proposed ABLSpineLevelCheck. (a) The function f con-
+tains two neural networks that work in an ensemble strategy. (b) The outputs O from
+the two neural networks contain the object detection results, respectively. (c) The en-
+semble module leverages the knowledge base to abduce the pseudo labels. (d) The
+knowledge base KB includes a set of first-order logical clauses suggested by orthopedic
+surgeons. (e)(f) The abduced results are sent back to retrain the neural networks.
 
 ## Abstract
-Deep learning has shown promising results in localizing vetebrae in X-ray images. However, in deep learning, data labeling is time-consuming and resource-intensive. To address this problem, a semi-supervised abductive learning technique called ABLSpineLevelCheck is proposed. First, the spine fluoroscopic images without annotation are fed into the networks to estimate their pseudo-labeles of vertebra localization. Then, these pseudo labels are abduced by logical reasoning through knowledge base composed of a set of first order logical clauses. Finally, the networks are retrained by the abduced results. We also propose to incorporate an ensemble method that effectively combines semantic detection of vertebral levels and instance detection. Moreover, simulated dataset and the BUU dataset are utilized to boot the robustness of the networks. Exhaustive experiments demonstrate the effectiveness of pretraining, ensemble, and logical reasoning modules. Furthermore, ABLSpineLevelCheck out-performs traditional deep learning methods and can handle the training scenario in which data are analyzed with few annotation.
+Deep learning has shown promising results in localizing ver-
+tebrae in X-ray images. However, in deep learning, data labeling is time-
+consuming and resource-intensive. To address this problem, a semi-supervised
+abductive learning technique called ABLSpineLevelCheck is proposed.
+First, the spine fluoroscopic images without annotation are fed into the
+networks to estimate their pseudo-labeles of vertebra localization. Then,
+these pseudo-labels are abduced by logical reasoning through knowledge
+base composed of a set of first-order logical clauses. Finally, the networks
+are retrained by the abduced results. We also propose to incorporate an
+ensemble method that effectively combines semantic detection of verte-
+bral levels and instance detection. Moreover, simulated dataset and the
+BUU dataset are utilized to boot the robustness of the networks. Exhaus-
+tive experiments demonstrate the effectiveness of pretraining, ensemble,
+and logical reasoning modules. Furthermore, ABLSpineLevelCheck out-
+performs traditional deep learning methods and can handle the training
+scenario in which data are analyzed with few annotation
 
 
 ## Performance
